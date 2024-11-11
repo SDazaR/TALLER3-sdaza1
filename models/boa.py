@@ -7,7 +7,7 @@ class Boa(ExoticAnimal):
         self.miece_eaten = 0
 
     def eat_mouse(self):
-        if (self.miece_eaten >= 10):
+        if (self.miece_eaten >= 20):
             raise ValueError("¡Demasiados ratones!")
         else:
             self.miece_eaten += 1
